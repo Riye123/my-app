@@ -13,7 +13,7 @@ export default function Component() {
 
   const [items,setItems] = useState([]);
   const tokenUrl = 'https://tdx.transportdata.tw/auth/realms/TDXConnect/protocol/openid-connect/token'
-  const apiUrl = 'https://tdx.transportdata.tw/api/basic'
+  const apiUrl = 'https://tdx.transportdata.tw/api/basic/v2/Tourism/ScenicSpot/YunlinCounty';
 
   useEffect(() => {
     const getToken = async () => {
