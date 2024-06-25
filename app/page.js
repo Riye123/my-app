@@ -35,7 +35,7 @@ export default function Component() {
           <span className="self-center whitespace-nowrap text-xl font-semibold text-white">Hao Bro website</span>
         </NavbarBrand> 
         <div className="flex md:order-2">
-          <Button>Get started</Button>
+
           <NavbarToggle />
         </div>
         <NavbarCollapse>
@@ -56,8 +56,8 @@ export default function Component() {
         <Image src="/Tower_of_Taipei_101(cropped).jpg" width={500} height={500} alt="由 AnthonySantiago101 - 自己的作品, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=113982887" />
         <Image src="/31257721794_a7f2e036ab_o.jpg" width={500} height={500} alt="Copyright by https://www.flickr.com/photos/405mi16/" />
         <Image src="/Yuntech_20100910_Cloud_Octagon_0019.jpg" width={500} height={500} alt="由 Zhuang kuonan - 自己的作品, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=65669091" />
-        <Image src="https://flowbite.com/docs/images/carousel/carousel-4.svg" width={500} height={500} alt="..." />
-        <Image src="https://flowbite.com/docs/images/carousel/carousel-5.svg" width={500} height={500} alt="..." />
+        <Image src="/1024x768-filedata635593621663304685.jpg" width={500} height={500} alt="Copyright by 台南旅遊網" />
+        <Image src="/hualien-travel-5.jpg" width={500} height={500} alt="Copyright by https://www.instagram.com/taiwan.4fun/" />
       </Carousel>
     </div>
 
